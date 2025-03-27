@@ -252,20 +252,6 @@ jobs = {
         "tools": ["get_web_texts_func", "generate_audio_interpretation_func", "calculator_func"],
         "intro": "读网页 生成文档解读音频 使用计算器"
     },
-    "Search Strategy Adviser": {
-        "category": "text",
-        "llms": ["DeepSeek-V3-0324", "Qwen-Max", "DeepSeek-R1", "QwQ 32B", "MiniMax-01", "Gemini Pro 2.5 Experimental", "Gemini Flash 2.0", "Gemma 3 27B", "Mistral Small 3.1", "Phi 4", "Claude 3.7 Sonnet", "o3 mini high"],
-        "system_message": "search_strategy_adviser",
-        "tools": None,
-        "intro": "生成信息检索策略"
-    },
-    "Information retriever": {
-        "category": "multimodal",
-        "llms": ["MiniMax-01", "GPT-4o"],
-        "system_message": "information_retriever",
-        "tools": ["information_retrieval_func", "export_search_results_func"],
-        "intro": "执行信息检索任务并导出Word或者CSV"
-    },
     "Translater": {
         "category": "text",
         "llms": ["DeepSeek-V3-0324", "Qwen-Max", "DeepSeek-R1", "QwQ 32B", "MiniMax-01", "Gemini Pro 2.5 Experimental", "Gemini Flash 2.0", "Gemma 3 27B", "Mistral Small 3.1", "Phi 4", "Claude 3.7 Sonnet", "o3 mini high", "GPT-4o", "Grok 2", "Yi-Lightning", "LFM 7B"],
